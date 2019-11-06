@@ -2,7 +2,7 @@ $(window).scroll(function(){
 //  --(Active Menu)--
 $('div[id], h2[id],header[id]').each(function(){
     var id = $(this).attr('id');
-    if($(this).offset().top- 100 < $(window).scrollTop())
+    if($(this).offset().top-500 < $(window).scrollTop())
     {
         $('a[href="#'+id+'"]').addClass('menu__link_active').siblings().removeClass('menu__link_active');
     }
