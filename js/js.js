@@ -53,7 +53,7 @@ $(document).ready(function ()
     hideShow();
     //  --(Scroll Top)--
     //  --(Burger Menu)--
-     $(document).on('click', function(e) {
+     $('body').on('click', function(e) {
   if (!$(e.target).closest(".header__menu").length) {
     $('.menu__btn').removeClass('menu__btn_active');
     $('.menu').removeClass('menu__active'); 
