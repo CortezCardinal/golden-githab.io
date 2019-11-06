@@ -55,8 +55,8 @@ $(document).ready(function ()
     //  --(Burger Menu)--
      $(document).on('click', function(e) {
   if (!$(e.target).closest(".header__menu").length) {
-    $('.menu__btn').toggleClass('menu__btn_active');
-    $('.menu').toggleClass('menu__active'); 
+    $('.menu__btn').removeClass('menu__btn_active');
+    $('.menu').removeClass('menu__active'); 
     //если не попадаешь по menu оно закрывается
   } 
 });
