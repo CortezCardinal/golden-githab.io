@@ -1,0 +1,56 @@
+.about__imge
+{
+  display: table;
+	 
+}
+.opportunities__body
+{
+	padding-top:80px;
+}
+.opportunities__items 
+{
+	width: 550px;
+	display: flex;
+	padding-bottom: 86px;
+	p
+{
+	width: 690px;
+	display: inline;
+	text-align: center;
+	font-size: 14px;
+	color: #777777;
+	
+}
+}
+.container__about
+{
+	display: grid;
+}
+.text__about
+{
+	&:nth-child(odd)
+	{
+		text-align: right;
+	}
+	&:nth-child(2n) 
+	{
+		margin-left: 40px;
+	}
+	&:nth-child(odd) 
+	{
+	margin-right: 40px;
+	}
+}
+.opportunities__items
+{
+	&:nth-child(2n) 
+	{
+		float: right;
+		margin-right: 12px;
+	}
+	&:nth-child(odd) 
+	{
+		float: left;
+	}
+}
+ 

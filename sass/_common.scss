@@ -1,0 +1,146 @@
+$fontFamily: Arial, sans-serif;
+$bodycolor: #222222;
+ 
+body
+{
+	font-family: $fontFamily;
+	color:$bodycolor;
+	margin: 0;
+	padding:0;
+ }
+h1
+	{
+		font-size:75px;
+		color: #ffffff;
+		text-transform: uppercase;
+		text-align: center;
+		margin: 15px;
+		margin-top:40px;
+	}
+h2
+	{
+		font-size: 40px;
+		font-weight: bold;
+		text-align: center;
+		text-transform: uppercase;
+		margin-bottom: 8px;
+		 
+	}
+h4
+	{
+		font-weight: bold;
+		color: #ffffff;
+		text-transform: uppercase;
+		text-align: center;
+		font-size: 18px;
+	}
+p
+	{
+		margin: 0px;
+		color: #7777;
+		text-align: center;
+		font-size: 16px;
+	}
+i
+	{
+		font-size: 79px;
+		color: #fed136;
+	}
+button
+	{
+		text-align: center;
+		font-size: 18px;
+		display: block;
+		width: 50px;
+		border: none;
+	}
+input
+	{
+		border: none;
+		font-family:  sans-serif;
+		padding: 10px;
+		border-radius: 3px;
+			&:focus 
+			{
+			  outline:none;
+			  box-shadow: 0 0 6pt 1.5pt #1fb0ff;
+			}
+			&::-webkit-input-placeholder       {opacity: 1; transition: opacity 0.3s ease;}
+			&::-moz-placeholder                {opacity: 1; transition: opacity 0.3s ease;}
+			&:-moz-placeholder                 {opacity: 1; transition: opacity 0.3s ease;}
+			&:-ms-input-placeholder            {opacity: 1; transition: opacity 0.3s ease;}
+			&:focus::-webkit-input-placeholder {opacity: 0; transition: opacity 0.3s ease;}
+			&:focus::-moz-placeholder          {opacity: 0; transition: opacity 0.3s ease;}
+			&:focus:-moz-placeholder           {opacity: 0; transition: opacity 0.3s ease;}
+			&:focus:-ms-input-placeholder      {opacity: 0; transition: opacity 0.3s ease;}
+	} 
+iframe
+	{
+		width: 440px;
+		height: 250px;
+	}
+footer
+	{
+		background-color: black; 
+	} 
+.header
+	{
+		background: url(../img/first-bg.jpg) no-repeat center top / cover;
+		padding-bottom: 160px;
+		display: flex;
+	}
+.container
+	{
+		width: 930px;
+		margin: 0 auto;  
+	}
+.title
+	{
+		padding-top: 119px;
+	 
+	}
+.menu__link
+	{
+		color: #ffffff;
+		text-decoration: none; /*убирает нижнее подчеркивание*/
+		text-transform: uppercase; /*Буквы капсом*/
+		transition: 0.4s;
+		list-style-type: none;
+	}
+li{
+	list-style-type:none;
+}
+.menu__link_active
+	{
+		color: #f0b105;
+	}
+.button__header
+	{
+		display: block;
+		width: 230px;
+		padding: 15px;
+		text-align: center;
+		margin: 0 auto;
+		font-size: 18px;
+		margin-top: 50px;
+	}
+.button
+	{
+		background: #fed136;
+		color: #484543;
+		text-decoration: none;
+		border-radius: 3px;
+		text-transform: uppercase;
+		font-weight: bold;
+		transition: 0.4s;
+			&:hover
+				{
+				background: #ffe280;
+				}
+			&:active
+				{
+				background:#f0b800;
+				}
+	}
+ 
+ 
